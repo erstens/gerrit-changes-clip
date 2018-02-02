@@ -25,8 +25,6 @@ Gerrit's push needs review information copied to the clipboard .
 
 * os : Use `pbcopy` in the mac `clip` in win
 
-  ​
-
   > os = mac
 
   or
@@ -38,10 +36,11 @@ Gerrit's push needs review information copied to the clipboard .
   > auth = Basic dkimZ2FvOiuhnbbhbw==
 
 
-
 ### use
 
-#### 1--------------------------------------------------------------------------------------------------------------------------
+#### greivew
+
+> copy review info to clipboard .
 
 * In mac
 
@@ -53,6 +52,15 @@ $ python greivew.py
 
 Double click `greivew.py`.
 
-#### 2--------------------------------------------------------------------------------------------------------------------------
+* Last
 
 `Ctrl + v` to paste it .
+
+#### clone_all
+
+> clone all projects in remote .
+
+``` shell
+$ python clone_all.py
+```
+
